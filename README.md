@@ -6,6 +6,6 @@ if you'd like to test this code: source the map.sh file and then create a varibl
 ```
 source map.sh 
 map="map"
-map_insert map key value
-map_retrieve map key 
+map_insert $map $key $value
+map_retrieve $map $key 
 ```
