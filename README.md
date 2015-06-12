@@ -4,7 +4,8 @@ Please don't ever use this, this is for demonstration only, if you're actually t
 if you'd like to test this code: source the map.sh file and then create a varible (with a unique string) which will be the map, you can then call the functions, passing the map to the functions.
 
 ```
-map=`source map.sh`
+source map.sh
+map=$MAPLOCATION
 map_insert $map $key $value
 map_retrieve $map $key 
 ```
